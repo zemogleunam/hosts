@@ -1,12 +1,50 @@
-# Title: Unam/hosts
+# Title: StevenBlack/hosts
 #
-# This hosts file is a personal collection of hosts
+# This hosts file is a merged collection of hosts from reputable sources,
+# with a dash of crowd sourcing via GitHub
 #
-# Date: 21 August 2024
-# Number of unique domains: 1
+# Date: 21 August 2024 12:08:59 (UTC)
+# Number of unique domains: 170,227
+#
+# Fetch the latest version of this file: https://raw.githubusercontent.com/zemogleunam/hosts/main/hosts
+# Project home page: https://github.com/Zemogleunam/hosts
 #
 # ===============================================================
 
-192.168.1.2 marca.com
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+
+# Custom host records are listed here.
+
+
+# End of custom host records.
+# Start StevenBlack
+
+#=====================================
+# Title: Hosts contributed by Zemogleunam
+# http://mayso.local
+
+0.0.0.0 marca.com
 
 # End
+
+# blacklist
+#
+# The contents of this file (containing a listing of additional domains in
+# 'hosts' file format) are appended to the unified hosts file during the
+# update process. For example, uncomment the following line to block
+# 'example.com':
+
+# 0.0.0.0 example.com
